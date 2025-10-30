@@ -1,0 +1,6 @@
+ultralytics
+numpy
+pandas
+Pillow
+pyyaml
+IPython
