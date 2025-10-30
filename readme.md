@@ -70,6 +70,7 @@ dataset.yaml是未對資料分佈問題做處理的配置文件，cell4在cell3�
 ## 運行cell 6 利用yolo架構開始訓練
 
 這個cell的程式運行後正式開始利用data_yolo中的數據集開始訓練，會在與ipynb文件同層目錄下產生run/train文件夾後,在裡面產生hw2，hw21，hw22...文件夾（每訓練一個新模型就會產生一個新的hw2文件夾），hw2文件夾裡面有pt後綴即為訓練好的模型參數配置，還有一些其他記錄訓練過程的文件
+
 ---
 
 
@@ -93,4 +94,5 @@ out_path = "submission29.csv"
 每一次運行cell 8都會產生一個新的predict(1 2 3...)文件請將這一行的"predict"改為對應名稱:
 
 img_dir = vis_dir / "predict"  # Point to the test prediction directory
+
 ---
